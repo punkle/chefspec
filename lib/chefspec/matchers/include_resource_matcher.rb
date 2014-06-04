@@ -24,7 +24,7 @@ module ChefSpec::Matchers
     private
 
     def unique_resources
-      @chef_run.resource_collection.map { |r| r.resource_name }.uniq
+      @unique_resources ||= @chef_run.resource_collection.map { |r| r.resource_name }.uniq
     end
   end
 end
