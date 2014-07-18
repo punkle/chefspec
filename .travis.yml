@@ -24,6 +24,7 @@ gemfile:
   - gemfiles/chef-11.4.4.gemfile
   - gemfiles/chef-11.6.0.gemfile
   - gemfiles/chef-11.8.0.gemfile
+  - gemfiles/chef-11.12.2.gemfile
   - gemfiles/chef-master.gemfile
 
 matrix:
